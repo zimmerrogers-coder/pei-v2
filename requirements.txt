@@ -1,14 +1,11 @@
-PySide6>=6.11
 psycopg[binary]>=3.2
 pandas>=3.0
 numpy>=2.0
-openpyxl>=3.1
 pytest>=8.0
 
-# PEI v2 (Project 2)
+# Modeling
 pymc>=6.0
 arviz>=1.0
 scikit-learn>=1.6
 pyyaml>=6.0
 matplotlib>=3.9
-nutpie>=0.16
