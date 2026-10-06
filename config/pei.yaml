@@ -1,0 +1,22 @@
+# PEI settings. Change a number here, rebuild, and every metric follows.
+
+# Run value of each plate-appearance outcome. Carried over from PEI v1
+# (player_valuation.py). Outcomes not listed are worth 0.
+woba_weights:
+  BB: 0.69
+  HBP: 0.72
+  1B: 0.88
+  2B: 1.247
+  3B: 1.578
+  HR: 2.031
+
+# Batted-ball thresholds (mph and degrees), softball scale.
+hard_hit_min_ev: 63
+barrel_min_ev: 70
+barrel_la: [20, 30]
+sweet_spot_la: [8, 32]
+
+# Strike zone in feet, measured from these files: height above the plate and
+# distance either side of its centre line.
+zone_height: [1.1, 2.6]
+zone_half_width: 0.87

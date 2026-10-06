@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# JavaScript (re-created by `npm install` / `npm run build`)
+viewer/node_modules/
+viewer/dist/
+
+# Raw game data never goes in the repo -- it stays on the local machine and in Postgres
+*.csv
+*.xlsx
+
+# Editor / OS
+.vscode/
+Thumbs.db
+
+# Model outputs come from the program's own games and stay local
+reports/
